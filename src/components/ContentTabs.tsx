@@ -58,10 +58,16 @@ const ContentTabs: React.FC<ContentTabsProps> = ({data}) => {
 
     return (
         <Box sx={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
-            <AppBar position="static">
+            <AppBar position="static" sx={{ bgcolor: '#d7d7d7', boxShadow: 1 }}>
                 <Toolbar>
+                    <Box
+                        component="img"
+                        src="/tuitionresources/LogoTransparency02.png"
+                        alt="Achievers Studio Logo"
+                        sx={{ height: 44, mr: 2, objectFit: 'contain' }}
+                    />
                     <Typography variant="h6" component="div"
-                                sx={{flexGrow: 1, fontFamily: 'Inter, system-ui, sans-serif'}}>
+                                sx={{flexGrow: 1, fontFamily: 'Inter, system-ui, sans-serif', color: '#333'}}>
                         Achievers Studio
                     </Typography>
                 </Toolbar>

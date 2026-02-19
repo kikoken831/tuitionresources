@@ -6,10 +6,10 @@ import { contentData } from './data/contentData';
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#1976d2',
+            main: '#d7d7d7',
         },
         secondary: {
-            main: '#dc004e',
+            main: '#fffefd',
         },
     },
 });
